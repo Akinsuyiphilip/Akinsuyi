@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akinsuyi Philip | software developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./styles.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handjet&family=Inconsolata&family=Raleway&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-white text-black selection:text-blue-600">
+    <!-- Navbar -->
+    <nav class="flex flex-col items-center mt-5 mx-auto leading-normal">
+      <div class="mt-5 text-xl font-bold handjet text-center">
+        Akinsuyi Philip Akinbolade
+      </div>
+      <!-- {<span class="strike">June</span>} -->
+      <!-- live time would go in here -->
+      <div
+        class="Inconsolata mt-2 text-center font-medium leading-normal tracking-widest"
+        id="livetime"
+      ></div>
+    </nav>
+
+    <main class="mx-5 my-10 flex flex-col space-y-16 lg:flex-row lg:mx-72 lg:my-16 lg:space-x-16 ">
+      <!-- different sections should go in here -->
+      <section class="flex flex-col w-full justify-center items-center lg:w-1/3 ">
+        <div class="my-2 rubik flex flex-col justify-center items-center lg:items-start ">
+          <h2 class="text-4xl font-bold mb-4 text-center lg:text-left ">
+            I'm a
+            <span class="text-5xl font-extrabold text-gray-500 text-Container"
+              >software developer</span
+            >, i help companies build ambitious ideas.
+          </h2>
+          <div class="flex-col hidden items-center justify-center text-center lg:text-left lg:items-start " id="AboutMe">
+            <p
+              class="font-semibold inconcolata leading-normal text-sm hover:text-orange-600  lg:leading-relaxed"
+            >
+              <i class="font-thin">"</i> I'm Akinsuyi Philip, and I'm all about
+              getting things done. I've got a knack for software development and
+              a seeker of experience as an IT Consultant, focusing on all things
+              front-end. I'm getting a wide range of skills, working with some
+              seriously cool tools and platforms to make businesses run even
+              smoother. I make sure everything I do lines up perfectly with what
+              the business needs. Let's create something awesome together!
+              <i class="font-thin">"</i>
+            </p>
+            <a
+              href="#"
+              class="text-sm text-center mt-5 underline hover:text-blue-600 hover:pt-1 flex flex-rows items-center"
+              id="hideLink"
+              >Less About Me
+              <ion-icon
+                name="arrow-round-down"
+                class="flex items-center pt-1 pl-1"
+              ></ion-icon
+            ></a>
+          </div>
+          <a
+            href="#"
+            class="text-sm text-center mt-5 underline hover:text-blue-600 hover:pt-1 flex flex-rows"
+            id="showLink"
+            >More About Me
+            <ion-icon name="arrow-round-down"  class="flex items-center pt-1 pl-1""></ion-icon>
+          </a>
+        </div>
+        <!-- roling text   -->
+        <div
+          class="my-5 overflow-hidden cursor-pointer relative flex items-center flex-row p-2 rounded-xl bg-black text-white h-[60px] w-[370px] hover:mt-6 hover:shadow-gray-500 hover:shadow-lg"
+        >
+          <p class="m-0 whitespace-nowrap text-center absolute MoveAnimation">
+            i'm available for remote and freelance Jobs.
+            <ion-icon name="arrow-round-forward"></ion-icon>
+            <a class="bg-blue-700 p-1 underline text-white cursor-pointer"
+              >feel free to reach out</a
+            >
+          </p>
+          <div class="bg-black h-full">
+            <ion-icon
+            
+              name="text"
+              class="absolute right-0 top-0 w-[50px] shadow-lg text-2xl bg-black p-5"
+            ></ion-icon>
+          </div>
+        </div>
+
+        <div class="hidden flex-col mt-5 lg:flex">
+          <h2 class="font-bold text-xl">Some quotes that keeps me going :)</h2>
+          <ul class="space-y-2">
+            <li>Design is in the details</li>
+            <li>You can dream, but don't neglect the execution</li>
+            <li>Persistence is key!</li>
+            <li>Empathy + tech foster viable business</li>
+            <li>Love yourz.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- section-2 -->
+      <section class="flex flex-col w-full lg:w-1/3">
+        <h2 class="text-2xl font-bold rubik">Selected works showcase</h2>
+        <div class="boxe my-8">
+          <a
+            class="flex flex-col h-[8rem] border-2 border-gray-200 rounded-3xl no-underline w-full p-6 pb-14 mb-4 relative hover:border-gray-300 cantoLand"
+            href="https://cantoland.vercel.app/"
+          >
+            <h6 class="handjet text-xl uppercase font-medium">cantoland</h6>
+            <h3 class="rubik font-bold">Game Website</h3>
+            <h5 class="livetime text-sm mt-2 font-semibold">Development</h5>
+            <img
+              src="/img/cantolandimg.png"
+              alt=""
+              height="120"
+              width="80"
+              class="absolute -top-1 right-7"
+            />
+          </a>
+          <a
+            class="flex flex-col h-[8rem] border-2 border-gray-200 rounded-3xl no-underline w-full p-6 pb-14 mb-4 relative hover:border-gray-300 beardCoder"
+            href="https://beard-coder.vercel.app/"
+          >
+            <h6 class="handjet text-xl uppercase font-medium">beard-coder</h6>
+            <h3 class="rubik font-bold">Portfolio Page</h3>
+            <h5 class="livetime text-sm mt-2 font-semibold">Development</h5>
+            <img
+              src="/img/beardCoder.png"
+              alt="pageImage"
+              height="120"
+              width="90"
+              class="absolute bottom-10 right-8"
+            />
+          </a>
+          <a
+            class="flex flex-col h-[8rem] border-2 border-gray-200 rounded-3xl no-underline w-full p-6 pb-14 mb-4 relative hover:border-gray-300 Travel"
+            href="https://akinsuyiphilip.github.io/travel/"
+          >
+            <h6 class="handjet text-xl">Travel</h6>
+            <h3 class="rubik font-bold">Landing Page</h3>
+            <h5 class="livetime text-sm mt-2">Development</h5>
+            <img
+              src="/img/Travel.png"
+              alt="pageImage"
+              height="120"
+              width="100"
+              class="absolute bottom-3 right-8"
+            />
+          </a>
+          <a
+            class="flex flex-col h-[8rem] border-2 border-gray-200 rounded-3xl no-underline w-full p-6 pb-14 mb-4 relative hover:border-gray-300"
+            href="#"
+          >
+            <h6 class="handjet text-xl">Site name</h6>
+            <h3 class="rubik font-bold">About site</h3>
+            <h5 class="livetime text-sm mt-2">Development</h5>
+            <img src="/" alt="" />
+          </a>
+        </div>
+
+        <div class="additional-pro"></div>
+      </section>
+
+      <!-- section -- 3 -->
+      <section class="hidden lg:flex flex-col w-full lg:w-1/3 z-10">
+        <h2 class="text-2xl font-bold rubik">Miscallenous & junks</h2>
+        <div class="relative w-full my-10 -z-10">
+          <div class="absolute h-[8rem] w-[12rem] rounded-3xl p-10 bg-blue-700 hoverEffect cursor-pointer">
+            <a  class="rounded-md absolute top-4 right-6 text-white  bg-black  items-center htext p-1" href="#">
+              <p class="text-white text-sm flex-nowrap hidden ">Check Out My Instagram page...</p>
+              <ion-icon name="logo-instagram" class="text-2xl "></ion-icon>
+            </a>
+
+          </div>
+          <div class="absolute h-[6rem] w-[12rem] rounded-3xl p-5 top-36 right-0 bg-orange-500 hoverEffect cursor-pointer">
+            <a  class="rounded-md absolute top-4 right-6 text-white  bg-black  items-center htext p-1" href="#">
+              <p class="text-white text-sm flex-nowrap hidden "> Instagram...</p>
+              <ion-icon name="logo-instagram" class="text-2xl "></ion-icon>
+            </a>
+
+          </div>
+          <div class="absolute h-[10rem] w-[5rem] rounded-3xl p-10 top-40 left-2 bg-green-700 hoverEffect  cursor-pointer ">
+            <a  class="rounded-md absolute top-4 right-6 text-white  bg-black  items-center htext p-1" 
+                href="https://github.com/Akinsuyiphilip">
+              <p class="text-white text-sm flex-nowrap hidden ">GiHhub...</p>
+              <ion-icon name="logo-github"></ion-icon>            
+            </a>
+
+          </div>
+          <div class="absolute h-[3rem] w-[19rem] rounded-3xl p-10 top-[22rem] right-1 bg-pink-700 hoverEffect cursor-pointer">
+            <a  class="rounded-md absolute top-4 right-6 text-white  bg-black flex flex-row justify-end items-center text-center htext p-1"
+                href="https://open.spotify.com/user/0res7zz3fvx1x4lby4qxff6hc?si=5dce34487bbf4379">
+              <p class="text-white text-sm flex-nowrap hidden ">music...</p>
+              <ion-icon name="logo-instagram" class="text-2xl "></ion-icon>
+            </a>
+
+          </div>
+        </div>
+
+      </section>
+      <!-- section 3 mobile -->
+      <section class="lg:hidden flex flex-col">
+        <h2 class="font-bold hover:text-green-500">Contact me :) </h2>
+        <div class="mt-8 space-x-4 text-green-700 ">
+          <a href="https://github.com/Akinsuyiphilip" class="underline hover:text-blue-600"> GitHub</a>
+          <a href="https://www.linkedin.com/in/akinsuyi-philip/" class="underline hover:text-blue-600"> Linkedin</a>
+          <a href="https://www.instagram.com/juneoflagos/" class="underline hover:text-blue-600"> Instagram </a>
+        </div>
+      </section>
+    </main>
+    <!-- js-script -->
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>

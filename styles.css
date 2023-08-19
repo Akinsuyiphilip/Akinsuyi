@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  min-height: 90vh;
+}
+/*   font-family: "Handjet", cursive;
+font-family: 'Inconsolata', monospace;
+font-family: 'Raleway', sans-serif;
+font-family: 'Rubik', sans-serif;
+*/
+.centerSection {
+  margin-right: auto;
+  margin-left: auto;
+}
+.livetime {
+  font-family: "Raleway", sans-serif;
+}
+.handjet {
+  font-family: "Handjet", cursive;
+}
+.rubik {
+  font-family: "Rubik", sans-serif;
+}
+.inconcolata {
+  font-family: "Inconsolata", monospace;
+}
+.strike {
+  text-decoration: line-through;
+  color: #e9e4e4;
+}
+.MoveAnimation {
+  animation: moveText 5s linear infinite;
+}
+.text-Container:focus,
+.text-Container:hover {
+  background: linear-gradient(
+    to left,
+    #f0441c,
+    #ff6658,
+    #974fff,
+    #17b4fe,
+    #0ec878,
+    #f0441c
+  );
+  background-size: auto;
+  background-clip: border-box;
+  background-size: 200% 200%;
+  animation: figmaBg 3s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.beardCoder img,
+.Travel img,
+.cantoLand img {
+  transition: 0.3s;
+}
+.cantoLand:hover img {
+  top: -10px;
+}
+.beardCoder:hover h5,
+.Travel:hover h5,
+.cantoLand:hover h5 {
+  opacity: 70%;
+}
+.beardCoder:hover img {
+  bottom: 20px;
+  right: -5%;
+}
+.Travel:hover img {
+  bottom: 20px;
+  right: 70px;
+}
+.hoverEffect {
+  box-shadow: 0 20px 35px rgba(0, 0, 255, 0.2);
+  transition: 1s;
+}
+ion-icon {
+  transition: 1s;
+}
+.hoverEffect:focus,
+.hoverEffect:hover {
+  box-shadow: 0 20px 35px rgba(0, 0, 255, 0.2);
+  margin-top: -1rem;
+}
+.hoverEffect:focus .htext,
+.hoverEffect:hover .htext {
+  display: flex;
+  width: fit-content;
+}
+.hoverEffect:focus .htext p,
+.hoverEffect:hover .htext p {
+  display: flex;
+  padding: 0 0.6rem 0 0.2rem;
+}
+
+.boxhover {
+  animation: boxhoverani 3s linear infinite;
+}
+@keyframes moveText {
+  0% {
+    transform: translateX(300px);
+  }
+  100% {
+    transform: translateX(-400px);
+  }
+}
+@keyframes figmaBg {
+  0% {
+    background-position: 0 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+@keyframes boxhoverani {
+  0% {
+    top: -12rem;
+  }
+  100% {
+    top: 12rem;
+  }
+}
